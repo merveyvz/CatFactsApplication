@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.cat-fact {
+    font-size: 24px;
+    font-weight: 300;
+    color: #1e3799;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.stButton > button {
+    background-color: #ffba00;
+    color: white !important;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover,
+.stButton > button:active,
+.stButton > button:focus {
+    background-color: #ffa300;
+    color: white !important;
+}
+
+
